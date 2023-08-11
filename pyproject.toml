@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "poetry2nix-wrap"
+version = "0.1.0"
+description = ""
+authors = ["Iwan Briquemont <tracnar@gmail.com>"]
+readme = "README.md"
+packages = [{include = "poetry2nix_wrap"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
